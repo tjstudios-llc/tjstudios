@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://tjstudios.xyz"><img src="https://img.shields.io/badge/Website-tjstudios.xyz-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="TJ Studios website" /></a>
-  <img src="https://img.shields.io/badge/Status-In%20Development-f59e0b?style=for-the-badge" alt="In development" />
+  <img src="https://img.shields.io/badge/Website-Coming%20Soon-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website coming soon" />
+  <img src="https://img.shields.io/badge/Platform-In%20Development-f59e0b?style=for-the-badge" alt="Platform in development" />
   <img src="https://img.shields.io/badge/Deployment-Self--Hosted-2563eb?style=for-the-badge&logo=docker&logoColor=white" alt="Self-hosted" />
   <img src="https://img.shields.io/badge/Runtime-Node.js%2022%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 22+" />
   <img src="https://img.shields.io/badge/Database-PostgreSQL-4169e1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -23,36 +23,103 @@
 
 Instead of jumping between disconnected control panels, hosting tools, dashboards, and command-line utilities, TJ Studios aims to bring the essential parts of a modern development and hosting workflow into one place.
 
-From a central dashboard, users will be able to organize projects, deploy and manage applications, work with databases and files, monitor services, and access developer tools.
+Through a central dashboard and connected services, users will be able to organize projects, deploy and manage applications, work with databases and files, monitor infrastructure, and access developer tools.
 
-The goal is straightforward: give individuals, creators, and small teams more control over the services they build and run—with an architecture they can understand, operate, and grow.
+The goal is to give individuals, creators, and small teams more control over the services they build and run—with an architecture they can understand, operate, and grow.
 
 > **One platform. Your infrastructure. Your projects. Your control.**
 
-## What we're building
+## Coming soon
 
-TJ Studios is being developed as a modular platform. Each capability is intended to work as part of a connected system while remaining independently maintainable.
+TJ Studios is under active development. The following capabilities are planned for the platform and will be introduced as they are implemented, tested, and ready for release.
 
-| Platform area | What it is intended to provide |
-| --- | --- |
-| **Application hosting** | Create, deploy, configure, and manage application services. |
-| **Website hosting** | Manage websites, domains, and deployment workflows. |
-| **Container management** | Control Docker-based workloads, services, and deployments. |
-| **Database management** | Provision and manage PostgreSQL databases and related resources. |
-| **File and object storage** | Organize project files and application assets through a unified interface. |
-| **Developer tools** | Access project utilities, integrations, and development workflows. |
-| **Infrastructure management** | Monitor hosts, service health, resource usage, and connected infrastructure. |
-| **APIs and integrations** | Connect platform capabilities to external tools and custom workflows. |
-| **Business email** | Integrate managed email services and provide mailbox and domain management. |
-| **AI-assisted development** | Explore tools that can help with development and project workflows. |
+### Platform dashboard
 
-These are product goals, not a claim that every feature is currently available. TJ Studios is actively under development.
+A central control panel for the TJ Studios ecosystem.
+
+- Manage projects, applications, and workspaces from one interface.
+- View service health, deployment state, and resource usage.
+- Configure platform services without constantly switching between tools.
+- Manage account settings, access, and connected resources.
+
+### Website and application hosting
+
+A unified workflow for deploying and operating web projects.
+
+- Create and configure website and application projects.
+- Deploy projects and manage their runtime configuration.
+- Connect domains and configure routing.
+- View deployment status, logs, and service health.
+
+### Container and server management
+
+Tools for operating Docker-based workloads and the infrastructure that runs them.
+
+- Create, start, stop, restart, and inspect containers.
+- Organize services and deployments.
+- Monitor connected hosts and system resources.
+- Manage application environment configuration and operational settings.
+
+### Database management
+
+A simpler way to provision and manage application data services.
+
+- Create and manage PostgreSQL databases.
+- Organize database resources by project or workspace.
+- Manage connection information and access permissions.
+- Monitor database service availability.
+
+### File and object storage
+
+Centralized storage capabilities for projects and applications.
+
+- Upload, organize, and manage files.
+- Store application assets and project resources.
+- Configure storage access and permissions.
+- Connect storage resources to hosted applications.
+
+### Developer tools and CLI
+
+A developer-focused toolkit that connects local workflows to the TJ Studios platform.
+
+- Use the planned TJ Studios CLI to interact with platform resources.
+- Manage projects and deployments from the terminal.
+- Connect development workflows to platform APIs.
+- Use integrations to reduce repetitive administration.
+
+### APIs and integrations
+
+A shared API foundation for the dashboard, CLI, and external tools.
+
+- Authenticated access to platform resources.
+- API keys and permission-aware operations.
+- Integration points for supported external services.
+- Consistent APIs across platform capabilities.
+
+### Business email
+
+Managed email capabilities integrated into the broader TJ Studios experience.
+
+- Connect supported email providers.
+- Manage domains and mailbox provisioning.
+- Organize email services alongside other project resources.
+- View service configuration and account-level details.
+
+### AI-assisted development
+
+An area of planned exploration for improving developer workflows.
+
+- Assistance with common development tasks.
+- Tools for understanding and working with projects.
+- Potential integrations with local and hosted development models.
+
+*These features are planned capabilities, not a representation that they are currently available. Availability and scope may change as development progresses.*
 
 ## Platform principles
 
 - **Self-hosted first** — keep infrastructure and deployment under the operator's control.
 - **One connected experience** — bring projects and services together through a central dashboard.
-- **Real infrastructure, real data** — platform status and resource information should come from actual services, not placeholder or browser-only state.
+- **Real infrastructure, real data** — status and resource information should come from actual services, not placeholder or browser-only state.
 - **Modular by design** — keep platform capabilities separated into maintainable services and components.
 - **Security by default** — build around authentication, authorization, tenant isolation, validation, and auditable operations.
 - **Practical and accessible** — make common infrastructure tasks manageable without requiring every user to work directly with server commands.
@@ -119,16 +186,17 @@ The platform is designed to grow through independently developed components rath
 
 ## Development roadmap
 
-TJ Studios is being built incrementally. Current priorities are:
+TJ Studios is being built incrementally. Current priorities include:
 
-- [ ] Establish and harden the central authentication and session system.
-- [ ] Build the shared platform API and authorization model.
+- [ ] Complete and harden the central authentication and session system.
+- [ ] Establish the shared platform API and authorization model.
 - [ ] Connect the dashboard to real backend services.
 - [ ] Establish reliable PostgreSQL and Redis operations.
 - [ ] Implement project, application, and container management.
 - [ ] Add storage and deployment workflows.
 - [ ] Improve infrastructure monitoring and operational visibility.
 - [ ] Expand integrations, documentation, and developer tooling.
+- [ ] Prepare the public website and platform launch.
 
 The roadmap may change as features are tested against the needs of a real self-hosted environment.
 
@@ -141,22 +209,19 @@ TJ Studios is being designed for:
 - Developers who want a unified place to manage projects and services.
 - Operators who prefer self-hosted tools and direct control over their deployments.
 
-## Get started
+## Website and platform availability
 
-TJ Studios is currently in development, so the complete platform is not yet available as a stable, one-command installation.
+<badge color="discovery">Coming soon</badge>
 
-For now, explore the organization's repositories to follow individual components and their progress:
+The public TJ Studios website, central dashboard, and full platform experience are not yet launched. They are being developed alongside the underlying services.
 
-- **Website:** [tjstudios.xyz](https://tjstudios.xyz)
-- **GitHub organization:** [github.com/tjstudios-llc](https://github.com/tjstudios-llc)
-- **Dashboard:** [dashboard.tjstudios.xyz](https://dashboard.tjstudios.xyz)
-- **Documentation:** [docs.tjstudios.xyz](https://docs.tjstudios.xyz)
+Until launch, follow the individual projects and development activity through the [TJ Studios GitHub organization](https://github.com/tjstudios-llc).
 
 For questions or project support, contact [support@tjstudios.xyz](mailto:support@tjstudios.xyz).
 
 ## Project status
 
-TJ Studios is an actively developed project. Features, interfaces, APIs, and deployment workflows may change while the platform is being built. Check the relevant repository documentation before relying on a component in a production environment.
+TJ Studios is actively being developed. Features, interfaces, APIs, and deployment workflows may change while the platform is being built. Planned capabilities will be announced as they become ready, and each component should be evaluated using its own repository documentation before production use.
 
 ---
 
@@ -165,7 +230,7 @@ TJ Studios is an actively developed project. Features, interfaces, APIs, and dep
   <br />
   Build with control. Operate with confidence.
   <br /><br />
-  <a href="https://tjstudios.xyz">Website</a> ·
-  <a href="https://github.com/tjstudios-llc">GitHub</a> ·
-  <a href="https://docs.tjstudios.xyz">Documentation</a>
+  <strong>Website and platform — Coming Soon</strong>
+  <br />
+  <a href="https://github.com/tjstudios-llc">GitHub Organization</a>
 </p>
