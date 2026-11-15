@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" role="img" aria-labelledby="title desc">
+  <title id="title">TJ Studios</title>
+  <desc id="desc">TJ Studios brand badge with a deep blue galaxy background.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d1c"/><stop offset=".52" stop-color="#101a36"/><stop offset="1" stop-color="#080b18"/></linearGradient>
+    <radialGradient id="nebulaA" cx="28%" cy="48%" r="65%"><stop stop-color="#2563eb" stop-opacity=".58"/><stop offset=".48" stop-color="#2563eb" stop-opacity=".16"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="nebulaB" cx="82%" cy="12%" r="62%"><stop stop-color="#6366f1" stop-opacity=".42"/><stop offset=".55" stop-color="#3b82f6" stop-opacity=".12"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#60a5fa" stop-opacity=".85"/><stop offset=".5" stop-color="#3b82f6" stop-opacity=".35"/><stop offset="1" stop-color="#818cf8" stop-opacity=".7"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x=".75" y=".75" width="258.5" height="62.5" rx="13"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="260" height="64" fill="url(#base)"/>
+    <rect width="260" height="64" fill="url(#nebulaA)"/>
+    <rect width="260" height="64" fill="url(#nebulaB)"/>
+    <path d="M-10 54 C38 4 74 82 128 34 S218 4 278 28" fill="none" stroke="#3b82f6" stroke-opacity=".15" stroke-width="12" filter="url(#glow)"/>
+    <g fill="#dbeafe"><circle cx="17" cy="15" r="1"/><circle cx="39" cy="48" r=".8"/><circle cx="63" cy="11" r=".7"/><circle cx="86" cy="54" r=".8"/><circle cx="111" cy="17" r=".65"/><circle cx="142" cy="9" r=".9"/><circle cx="169" cy="49" r=".7"/><circle cx="194" cy="17" r=".8"/><circle cx="223" cy="46" r="1"/><circle cx="245" cy="13" r=".7"/><circle cx="236" cy="31" r=".55"/><circle cx="25" cy="34" r=".55"/></g>
+    <g stroke="#93c5fd" stroke-opacity=".72" stroke-width=".8" filter="url(#glow)"><path d="M52 20v5m-2.5-2.5h5"/><path d="M207 10v5m-2.5-2.5h5"/></g>
+    <text x="130" y="39" text-anchor="middle" fill="#f8fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" letter-spacing=".15">TJ Studios</text>
+  </g>
+  <rect x=".75" y=".75" width="258.5" height="62.5" rx="12.5" fill="none" stroke="url(#edge)" stroke-width="1.25"/>
+</svg>
