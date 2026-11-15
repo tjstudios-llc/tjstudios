@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Website-Coming%20Soon-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website coming soon" />
-  <img src="https://img.shields.io/badge/Platform-In%20Development-f59e0b?style=for-the-badge" alt="Platform in development" />
-  <img src="https://img.shields.io/badge/Deployment-Self--Hosted-2563eb?style=for-the-badge&logo=docker&logoColor=white" alt="Self-hosted" />
-  <img src="https://img.shields.io/badge/Runtime-Node.js%2022%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 22+" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL-4169e1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Containerization-Docker-2496ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="./badges/tj-studios.svg" alt="TJ Studios" width="260" height="64" />
+  <br /><br />
+  <img src="./badges/coming-soon.svg" alt="Coming Soon" />
+  <img src="./badges/in-development.svg" alt="In Development" />
+  <img src="./badges/self-hosted.svg" alt="Self-Hosted" />
+  <img src="./badges/docker-ready.svg" alt="Docker Ready" />
 </p>
 
 ---
